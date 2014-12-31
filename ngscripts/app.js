@@ -13,4 +13,11 @@
 		}
 	});
 
+	app.directive("foot", function(){
+		return{
+			restrict: 'E',
+			templateUrl: 'includes/footertemplate.html'
+		}
+	});
+
 })();
