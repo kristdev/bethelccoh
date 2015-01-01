@@ -20,4 +20,28 @@
 		}
 	});
 
+	app.controller('homemenuController', function($scope){
+		$scope.menupage="index";
+	});
+
+	app.controller('historymenuController', function($scope){
+		$scope.menupage="history";
+	});
+
+	app.controller('pastoralstaffmenuController', function($scope){
+		$scope.menupage="pastoral-staff";
+	});
+
+	app.controller('destinyhomemenuController', function($scope){
+		$scope.menupage="destiny-home";
+	});
+
+	app.controller('calendarmenuController', function($scope){
+		$scope.menupage="calendar";
+	});
+
+	app.controller('storemenuController', function($scope){
+		$scope.menupage="store";
+	});
+
 })();
