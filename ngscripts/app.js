@@ -24,7 +24,7 @@
 		$scope.menupage="index";
 	});
 
-	app.controller('historymenuController', function($scope){
+	app.controller('aboutusmenuController', function($scope){
 		$scope.menupage="history";
 	});
 
